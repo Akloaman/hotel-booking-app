@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ebeb;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .hotel-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .hotel-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .hotel-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .book-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2e8b57;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #246d45;
+  }
+  .booking-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .booking-container h1 {
+    margin-bottom: 20px;
+    color: #2e8b57;
+  }
+  
+  .booking-container input,
+  .booking-container label {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .booking-container button {
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .booking-container button:hover {
+    background-color: #246d45;
+  }
+  
+  #msg {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+  }
+  
